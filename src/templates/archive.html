@@ -19,11 +19,12 @@
             <div class="meta">
                 <i class="fa fa-clock-o"></i> {{ page.date }}
                 {% if page.meta.tags|length %}
-                    <i class="fa fa-tags"></i> 
+                    <i class="fa fa-tags"></i>
                     {% for page_tag in page.meta.tags %}
                         <a href="{{ url_for("tag", tag=page_tag) }}">{{ page_tag }}</a>{% if loop.last %}{% else %}, {% endif %}
                     {% endfor %}
                 {% endif %}
+                <i class="fa fa-user"></i> <a href="{{ url_for("author", author=page.author) }}">{{ page.author }}</a>
             </div>
         </li>
         {% endif %}
