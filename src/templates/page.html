@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - {% endblock title %}
+
+{% block home_link %}
+<a href="{{ url_for("index") }}" class="home"></a>
+{% endblock %}
+
+{% block content %}
+{% if page.meta.poster %}
+<div class="post-poster" data-role="post-poster" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url({{ page.meta.poster }});">
+    <div class="poster-content">
+        <header>
+            <h1><a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a></h1>
+        </header>
+    </div>
+</div>
+{% endif %}
+<!-- post -->
+<section class="post">
+    {% if not page.meta.poster %}
+    <header>
+        <h1><a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a></h1>
+    </header>
+    {% endif %}
+    <article>
+       {{ page.html|safe }}
+    </article>
+</section>
+<!-- /post -->
+{% endblock content %}

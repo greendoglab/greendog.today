@@ -1,0 +1,9 @@
+host='macgera'
+path='projects/greendog'
+
+[deploy]
+git checkout master
+git pull
+source ~/.envs/greendog/bin/activate
+grunt build
+./src/app.py build

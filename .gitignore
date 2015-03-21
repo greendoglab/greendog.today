@@ -1,0 +1,17 @@
+# basics
+*.pyc
+.sass-cache
+.DS_Store
+npm-debug.log
+node_modules
+bower_components
+
+# site
+production
+
+
+# assets
+src/static/*
+!src/static/fonts
+
+src/assets/css

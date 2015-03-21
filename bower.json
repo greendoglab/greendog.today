@@ -1,0 +1,15 @@
+{
+  "name": "greendog.today",
+  "description": "Michael Yakimenko & Olha Yakimenko nomad workers and travel blog",
+  "version": "0.0.2",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "~3.0.2"
+  },
+  "devDependencies": {
+    "social-likes": "~3.0.12",
+    "jquery": "~2.1.3",
+    "normalize.css": "~3.0.2",
+    "fontawesome": "~4.3.0"
+  }
+}

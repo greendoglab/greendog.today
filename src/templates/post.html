@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - {% endblock title %}
+
+{% block home_link %}
+<a href="{{ url_for("index") }}" class="home"></a>
+{% endblock %}
+
+{% block content %}
+{% if page.meta.poster %}
+<div class="post-poster" data-role="post-poster" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url({{ page.meta.poster }});">
+    <div class="poster-content">
+        <header>
+            <h1><a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a></h1>
+            <div class="meta">
+                <i class="fa fa-clock-o"></i> {{ page.date|dateformat }} в {{ page.date|timeformat }}
+                {% if page.meta.tags|length %}
+                    <i class="fa fa-tags"></i>
+                    {% for page_tag in page.meta.tags %}
+                        <a href="{{ url_for("tag", tag=page_tag) }}">{{ page_tag }}</a>{% if loop.last %}{% else %}, {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </header>
+    </div>
+</div>
+{% endif %}
+<!-- post -->
+<section class="post">
+    {% if not page.meta.poster %}
+    <header>
+        <h1><a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a></h1>
+        <div class="meta">
+            <i class="fa fa-clock-o"></i> {{ page.date|dateformat }} в {{ page.date|timeformat }}
+            {% if page.meta.tags|length %}
+                <i class="fa fa-tags"></i>
+                {% for page_tag in page.meta.tags %}
+                    <a href="{{ url_for("tag", tag=page_tag) }}">{{ page_tag }}</a>{% if loop.last %}{% else %}, {% endif %}
+                {% endfor %}
+            {% endif %}
+        </div>
+    </header>
+    {% endif %}
+    <article>
+       {{ page.html|safe }}
+    </article>
+    <footer>
+        <div class="social">
+            <div class="social-likes" data-url="http://macgera.name{{ url_for("page", path=page.path) }}" data-title="{{ page.title }} – Блог Михаила Якименко">
+                <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+                <div class="twitter" data-via="macgera" title="Поделиться ссылкой в Твиттере">Twitter</div>
+                <div class="plusone" title="Поделиться ссылкой в Гугл-плюсе">Google+</div>
+            </div>
+        </div>
+        <div class="post-add post-add-desktop">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- mg-post desktop -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px"
+                 data-ad-client="ca-pub-4786010444164080"
+                 data-ad-slot="5834227694"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="post-add post-add-mobile">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- mg-mobile -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:320px;height:100px"
+                 data-ad-client="ca-pub-4786010444164080"
+                 data-ad-slot="7310960895"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="comments">
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'macgera'; // required: replace example with your forum shortname
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+    </footer>
+</section>
+<!-- /post -->
+{% endblock content %}

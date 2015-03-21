@@ -1,0 +1,16 @@
+// functions & mixins
+@import "animate.scss";
+@import "functions.scss";
+@import "mixins.scss";
+
+@import "base.scss";
+
+// blocks
+@import "blocks/components.scss";
+@import "blocks/header.scss";
+@import "blocks/footer.scss";
+@import "blocks/menu.scss";
+// @import "blocks/posts.scss";
+@import "blocks/posts-list.scss";
+@import "blocks/post.scss";
+@import "blocks/pagination.scss";

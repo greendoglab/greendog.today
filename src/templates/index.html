@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block home_link %}{% endblock %}
+
+{% block content %}
+{% if page.meta.poster %}
+<div class="post-poster" data-role="post-poster" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url({{ page.meta.poster }});">
+    <div class="poster-content">
+        <header>
+            <h1><a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a></h1>
+            <div class="meta">
+                <i class="fa fa-clock-o"></i> {{ page.date|dateformat }} в {{ page.date|timeformat }}
+                {% if page.meta.tags|length %}
+                    <i class="fa fa-tags"></i>
+                    {% for page_tag in page.meta.tags %}
+                        <a href="{{ url_for("tag", tag=page_tag) }}">{{ page_tag }}</a>{% if loop.last %}{% else %}, {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </header>
+    </div>
+</div>
+{% endif %}
+<!-- post -->
+<section class="post">
+    {% if not page.meta.poster %}
+    <header>
+        <h1><a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a></h1>
+        <div class="meta">
+            <i class="fa fa-clock-o"></i> {{ page.date|dateformat }} в {{ page.date|timeformat }}
+            {% if page.meta.tags|length %}
+                <i class="fa fa-tags"></i>
+                {% for page_tag in page.meta.tags %}
+                    <a href="{{ url_for("tag", tag=page_tag) }}">{{ page_tag }}</a>{% if loop.last %}{% else %}, {% endif %}
+                {% endfor %}
+            {% endif %}
+        </div>
+    </header>
+    {% endif %}
+    <article>
+       {{ page.html|safe }}
+    </article>
+    <footer>
+        <div class="social">
+            <div class="social-likes" data-url="http://macgera.name{{ url_for("page", path=page.path) }}" data-title="{{ page.title }} – Блог Михаила Якименко">
+                <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+                <div class="twitter" data-via="macgera" title="Поделиться ссылкой в Твиттере">Twitter</div>
+                <div class="plusone" title="Поделиться ссылкой в Гугл-плюсе">Google+</div>
+            </div>
+        </div>
+    </footer>
+</section>
+<!-- /post -->
+<!-- posts_list -->
+<section class="posts-list">
+    <h3>Свежие записи</h3>
+    <ul>
+        {% for page in pages %}
+        <li>
+            <h1><a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a></h1>
+            <div class="meta">
+                <i class="fa fa-clock-o"></i> {{ page.date }}
+                {% if page.meta.tags|length %}
+                    <i class="fa fa-tags"></i>
+                    {% for page_tag in page.meta.tags %}
+                        <a href="{{ url_for("tag", tag=page_tag) }}">{{ page_tag }}</a>{% if loop.last %}{% else %}, {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+<!-- /posts_list -->
+<!-- all-posts -->
+<section class="all-posts">
+    <a href="{{ url_for("page", path="archive") }}" class="all-posts-link">Архив записей</a>
+</section>
+<!-- /all-posts -->
+{% endblock content %}

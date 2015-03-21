@@ -1,0 +1,45 @@
+$text-color: #303030;
+$link-color: #3498db;
+
+body {
+    font-size: rem(18);
+    line-height: 150%;
+    background: #fff;
+    font-family: Georgia, serif;
+    position: relative;
+    color: $text-color;
+    padding: 0;
+    margin: 0;
+    &.open-menu {
+        overflow: hidden;
+    } // &.open-menu
+    @include bp(md) {
+        font-size: rem(22);
+    } // md
+    @include bp(lg) {
+        font-size: rem(22);
+    } // lg
+} // body
+
+img {
+    display: block;
+    max-width: 100%;
+    vertical-align: top;
+    &.portrait {
+        max-height: 86vh;
+    } // &.portrait
+} // img
+
+a {
+    color: $link-color;
+    @include transition(all, 0.3s, ease);
+    &:hover {
+        text-decoration: none;
+    } // &:hover
+} // a
+
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+    line-height: 1;
+} // h1, h2, h3, h4, h5

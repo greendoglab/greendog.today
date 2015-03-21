@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block home_link %}
+{% if page > 1 %}
+<a href="{{ url_for("index") }}" class="home"></a>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<!-- posts -->
+<section class="posts">
+    {% for page in pages %}
+    <!-- post -->
+    <div class="post">
+        <header>
+            <h1><a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a></h1>
+            <div class="meta">
+                <i class="fa fa-clock-o"></i> {{ page.date }}
+                {% if page.meta.tags|length %}
+                    <i class="fa fa-tags"></i> 
+                    {% for page_tag in page.meta.tags %}
+                        <a href="{{ url_for("tag", tag=page_tag) }}">{{ page_tag }}</a>{% if loop.last %}{% else %}, {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </header>
+        <article>
+           {{ page.html|safe }}
+        </article>
+        <footer>
+            <div class="social">
+                <div class="social-likes" data-url="http://macgera.name{{ url_for("page", path=page.path) }}" data-title="{{ page.title }} – Блог Михаила Якименко">
+                    <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+                    <div class="twitter" data-via="macgera" title="Поделиться ссылкой в Твиттере">Twitter</div>
+                    <div class="plusone" title="Поделиться ссылкой в Гугл-плюсе">Google+</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- /post -->
+    {% endfor %}
+</section>
+<!-- /posts -->
+<!-- pagination -->
+<nav class="pagination">
+     <ul>
+        {% if pagination.has_prev %}
+        <li>
+            <a href="{{ url_for(section, page=pagination.page - 1) }}">&#8592;</a>
+        </li>
+        {% endif %}
+        {% for page in pagination.iter_pages() %}
+            {% if page %}
+                {% if page != pagination.page %}
+                <li>
+                    <a href="{{ url_for(section, page=page) }}">{{ page }}</a>
+                </li>
+                {% else %}
+                <li>
+                    <strong>{{ page }}</strong>
+                </li>
+                {% endif %}
+            {% else %}
+            <li>
+                <span>...</span>
+            </li>
+            {% endif %}
+        {% endfor %}
+        {% if pagination.has_next %}
+        <li>
+            <a href="{{ url_for(section, page=pagination.page + 1) }}">&#8594;</a>
+        </li>
+        {% endif %}
+    </ul>
+</nav>
+<!-- /pagination -->
+{% endblock content %}

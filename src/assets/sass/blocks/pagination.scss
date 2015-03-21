@@ -1,0 +1,28 @@
+.pagination {
+    padding: .5em 20% 0 20%;
+    text-align: center;
+    ul {
+        padding: 0;
+        margin-bottom: 0;
+        li {
+            display: inline-block;
+            margin: 0 auto;
+            width: 1.5em;
+            height: 1.5em;
+            background: whitesmoke;
+            border-radius: .2em;
+            a {
+                display: block;
+                width: 1.5em;
+                height: 1.5em;
+                border-radius: .2em;
+                text-decoration: none;
+                &:hover {
+                    background: $link-color;
+                    color: white;
+                    text-decoration: none;
+                } // &:hover
+            } // a
+        } // li
+    } // ul
+} // pagination

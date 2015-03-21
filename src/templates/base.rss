@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>{% block title %}Михаил Якименко{% endblock %}</title>
+        <link>{{ BASE_URL }}/</link>
+        <description>{% block description %}Блог Михаил Якименкно.{% endblock %}</description>
+        <language>{% block lang %}ru-RU{% endblock %}</language>
+        <pubDate>{{ build_date }}</pubDate>
+        <lastBuildDate>{{ build_date }}</lastBuildDate>
+        <copyright>Мои права защищены :) 2010-2013 Михаил Якименко</copyright>        
+        <webMaster>macgera@gmail.com (Михаил Якименко)</webMaster>
+        <managingEditor>macgera@gmail.com (Михаил Якименко)</managingEditor>
+        <ttl>3600</ttl>
+        {% block content %}
+        {% for page in pages %}
+        <item>
+            <author>macgera@gmail.com (Михаил Якименко)</author>
+            <title>{{ page.title|escape }}</title>
+            <link>{{ BASE_URL }}/{{ page.path }}/</link>
+            <description>
+                {{ page.html|escape }}
+            </description>
+            <pubDate>{{ page.date }}</pubDate>
+            <guid>{{ BASE_URL }}/{{ page.path }}/</guid>
+        </item>
+        {% endfor %}
+        {% endblock %}
+    </channel>
+</rss>

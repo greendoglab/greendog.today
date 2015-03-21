@@ -1,0 +1,86 @@
+.menu-bars {
+    position: fixed;
+    right: 2%;
+    top: 1.2em;
+    z-index: 300;
+    text-rendering: auto;
+    font-family: FontAwesome;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 0.4em 0 0 0;
+    width: 1.8em;
+    height: 1.8em;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    line-height: 1.2;
+    font-size: 1em;
+    
+    color: #000;
+    text-decoration: none;
+
+    cursor: pointer;
+    &:after {
+        content: '\f0c9';
+    } // &:after
+    &.active {
+        background: #2980b9;
+        &:after {
+            color: #fff;
+        } // &:after
+    } // &.active
+    @include bp(xs) {
+        right: 2%;
+    }
+    @include bp(sm) {
+        right: 2%;
+    }
+    @include bp(md) {
+        right: 5%;
+    }
+    @include bp(lg) {
+        right: 5%;
+    }
+} // menu-bars
+
+.home {
+    position: fixed;
+    left: 2%;
+    top: 1.2em;
+    z-index: 300;
+    text-rendering: auto;
+    font-family: FontAwesome;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 0.4em 0 0 0;
+    width: 1.8em;
+    height: 1.8em;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    line-height: 1.2;
+    font-size: 1em;
+
+    color: #000;
+    text-decoration: none;
+
+    &:after {
+        content: '\f015';
+    } // &:after
+    @include bp(xs) {
+        left: 2%;
+    }
+    @include bp(sm) {
+        left: 2%;
+    }
+    @include bp(md) {
+        left: 5%;
+    }
+    @include bp(lg) {
+        left: 5%;
+    }
+} // home
