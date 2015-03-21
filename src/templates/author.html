@@ -9,7 +9,32 @@
 {% block content %}
 <!-- posts_list -->
 <section class="posts-list">
-    <h3>Записи автора {{ author }}</h3>
+    <div class="author">
+        <h3>Записи автора {{ author }}</h3>
+        {% if author_info.photo %}
+        <div class="photo">
+            <img src="{{ author_info.photo }}" alt="{{ author_info.name }}">
+        </div>
+        {% endif %}
+        <div class="info">
+            {% if author_info.links %}
+                <ul class="links">
+                    {% for link in author_info.links %}
+                        {% if link.icon %}
+                            <a href="{{ link.url }}"><span class="icon {{ link.icon }}"></span></a>{% if loop.last %}{% else %}, {% endif %}
+                        {% else %}
+                            <a href="{{ link.url }}">{{ link.name }}</a>{% if loop.last %}{% else %}, {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            {% if author_info.welcome %}
+            <article>
+                {{ author_info.welcome }}
+            </article>
+            {% endif %}
+        </div>
+    </div>
     <ul>
         {% for page in pages %}
         <li>

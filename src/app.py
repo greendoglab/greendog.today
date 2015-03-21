@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import sys
+import os
+import json
 
 from flask import Flask, render_template, url_for, request
 from flask_flatpages import FlatPages
@@ -65,6 +67,11 @@ def get_authored(posts_list, author):
     authored = sorted_posts(authored)
     return authored
 
+def get_author_info(author):
+    json_file = open(os.path.join(os.path.dirname(__file__), "content", "authors.json"), "r")
+    authors = json.load(json_file)
+    return next((item for item in authors if item['name'] == author), None)
+
 # get posts
 def get_posts():
     blog = [p for p in pages if p.path.startswith(POSTS_DIR)]
@@ -91,7 +98,8 @@ def tag(tag):
 @app.route('/author/<string:author>/')
 def author(author):
     posts = get_posts()
-    return render_template('author.html', pages = get_authored(posts, author), author = author)
+    author_info = get_author_info(author)
+    return render_template('author.html', pages = get_authored(posts, author), author = author, author_info = author_info)
 
 @app.route('/rss/')
 def feed():

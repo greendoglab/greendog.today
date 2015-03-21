@@ -1,0 +1,38 @@
+.author {
+    .photo {
+        margin-top: 1em;
+        img {
+            margin: auto;
+            border-radius: 100%;
+            width: 4rem;
+            padding: .2em;
+            border: 1px solid seagreen;
+        } // img
+    } // photo
+    .info {
+        ul.links {
+            @include clear-list-inline;
+            margin-top: 0.5em;
+            font-size: .7em;
+            font-style: italic;
+            color: #808080;
+            a {
+                color: inherit;
+            } // a
+        } // ul.links
+        .icon {
+            &.twitter {
+                @include inline-middle;
+                font: normal normal normal 14px/1 FontAwesome;
+                font-size: inherit;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                transform: translate(0, 0);
+                &:before {
+                    content: '\f099';
+                } // before
+            } // twitter
+        } // icon
+    } // info
+} // author

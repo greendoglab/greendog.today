@@ -1,13 +1,20 @@
 [
     {
-        "author": "Ольга Якименко"
+        "name": "Ольга Якименко",
+        "photo": "http://greendogstorage.s3.amazonaws.com/authors/olha-avatar.jpeg"
     },
     {
-        "author": "Михаил Якименко",
+        "name": "Михаил Якименко",
+        "photo": "http://macgera.s3.amazonaws.com/mg-avatar.jpg",
         "links": [
             {
+                "name": "twitter",
                 "icon": "twitter",
                 "url": "https://twitter.com/macgera"
+            },
+            {
+                "name": "Блог",
+                "url": "http://macgera.name"
             }
         ]
     }
