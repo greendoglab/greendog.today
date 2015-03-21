@@ -2,6 +2,7 @@ title: Мои наблюдения о Черногории (часть 1)
 date: 2014-10-28 11:55:17
 tags: [Черногория, Продукты, Цены, Мусор]
 poster: http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st7/IMG_8866.JPG
+author: Ольга Якименко
 
 ![закат Черногория sunset](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st7/IMG_8866.JPG)
 ### Закат в Баре

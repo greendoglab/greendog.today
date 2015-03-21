@@ -2,6 +2,7 @@ title: О качестве и ценах
 date: 2014-09-26 09:32:57
 tags: [Черногория, Продукты, Цены, Вино]
 poster: http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st3/IMG_20141016_142916.jpg
+author: Ольга Якименко
 
 ![супермаркет вино винотека продукты](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st3/IMG_20141016_142916.jpg)
 

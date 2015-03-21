@@ -2,6 +2,7 @@ title: Крепость Старого Бара
 date: 2014-10-21 11:47:45
 tags: [Старый Бар, Крепость, Черногория]
 poster: http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st5/IMG_8680.JPG
+author: Ольга Якименко
 
 ![старый город Бар Черногория крепость горы руины](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st5/IMG_8680.JPG)
 

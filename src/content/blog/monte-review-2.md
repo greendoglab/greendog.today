@@ -2,6 +2,7 @@ title: Мои наблюдения о Черногории (часть 2)
 date: 2014-11-01 19:42:18
 tags: [Детский сад, Спорт, Кухонный девайс, Черногория]
 poster: http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st6/Dvorana.JPG
+author: Ольга Якименко
 
 О девайсе на кухне
 

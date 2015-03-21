@@ -2,6 +2,7 @@ title: О местных нравах
 date: 2014-09-23 10:03:32
 tags: [Черногория, Бар, Сербский Язык, Школа]
 poster: http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/IMG_8460.JPG
+author: Ольга Якименко
 
 ![аллея пальма горы Черногория Бар](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/IMG_8460.JPG)
 

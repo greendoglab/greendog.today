@@ -2,6 +2,7 @@ title: История королевской династии в одной фо
 date: 2014-11-10 15:20:21
 tags: [Черногория, Бар, Дворец, Музей]
 poster: http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st8/porodica.jpg
+author: Ольга Якименко
 
 ![Topolica Черногория Бар дворец короля Николы музей резиденция Тополица](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st8/Topolica.jpg)
 
