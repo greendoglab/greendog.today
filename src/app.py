@@ -60,6 +60,11 @@ def get_taget(posts_list, tag):
     tagged = sorted_posts(tagged)
     return tagged
 
+def get_authored(posts_list, author):
+    authored = [p for p in posts_list if author in p.meta.get('author')]
+    authored = sorted_posts(authored)
+    return authored
+
 # get posts
 def get_posts():
     blog = [p for p in pages if p.path.startswith(POSTS_DIR)]
@@ -82,6 +87,11 @@ def index():
 def tag(tag):
     posts = get_posts()
     return render_template('tag.html', pages = get_taget(posts, tag), tag = tag)
+
+@app.route('/author/<string:author>/')
+def author(author):
+    posts = get_posts()
+    return render_template('author.html', pages = get_authored(posts, author), author = author)
 
 @app.route('/rss/')
 def feed():
