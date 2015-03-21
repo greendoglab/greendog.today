@@ -1,5 +1,5 @@
 host='macgera'
-path='projects/greendog'
+path='projects/greendog.today'
 
 [deploy]
 git checkout master
