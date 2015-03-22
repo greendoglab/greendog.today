@@ -11,7 +11,7 @@ from flask_frozen import Freezer
 
 # config
 DEBUG = False
-FLATPAGES_AUTO_RELOAD = DEBUG
+FLATPAGES_AUTO_RELOAD = True
 FLATPAGES_EXTENSION = '.md'
 FLATPAGES_ROOT = 'content'
 POSTS_DIR = 'blog'
