@@ -1,14 +1,14 @@
 title: О качестве и ценах
 date: 2014-09-26 09:32:57
 tags: [Черногория, Продукты, Цены, Вино]
-poster: http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st3/IMG_20141016_142916.jpg
+poster: http://greendogstorage.s3.amazonaws.com/Montenegro/st3/IMG_20141016_142916.jpg
 author: Ольга Якименко
 
-![супермаркет вино винотека продукты](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st3/IMG_20141016_142916.jpg)
+![супермаркет вино винотека продукты](http://greendogstorage.s3.amazonaws.com/Montenegro/st3/IMG_20141016_142916.jpg)
 
 По приезду мы купили местное черногорское вино. Пролежало оно у нас в холодильнике больше недели, так как мы не обнаружили на кухне штопора, а в магазинах их просто не было в продаже. Почти уже купили штопор на рынке. Почему "почти"? Потому что нашли, но наличка закончилась, нужно было идти снимать. А так как это было обеденное время, чувство голода заставило отложить покупку штопора на потом. Придя домой, даже не знаю зачем, но мы сняли с обычной с виду бутылки вина, пластиковую плёнку с горлышка, а под ней оказалось вот это
 
-![вино бутылка пробка крышка красное сухое черногорское](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st3/IMAG1855.jpg)
+![вино бутылка пробка крышка красное сухое черногорское](http://greendogstorage.s3.amazonaws.com/Montenegro/st3/IMAG1855.jpg)
 
 Глаза округлились и челюсть упала. Оказывается именно так принято закрывать все черногорские вина. Возможно вы подумали, что дело в цене? Нет, цена тут совсем ни при чем. Вино хорошего качества, не порошковое. С корковыми пробками можно встретить только импортные вина.
 
@@ -16,28 +16,28 @@ author: Ольга Якименко
 
 Цены на некоторые продукты ниже, на некоторые - выше наших. Из того, что явно дешевле: свинина, говядина, мягкий сыр (типа фета), твёрдые сыры, вкуснейшие оливки (по 3 евро за кг маринованных оливок без косточки). А скоро наступит время сбора урожая гранат, киви, мандарин, которых тут немеряно в каждом саду.
 
-![оливки маслины зелёные](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st3/IMAG1854.jpg)
+![оливки маслины зелёные](http://greendogstorage.s3.amazonaws.com/Montenegro/st3/IMAG1854.jpg)
 
 Тем, кто привык к гречке будет сложно. Ею тут почему-то принято кормить только скотину. В магазинах гречка встречается только на полках с импортными продуктами и цена на неё заоблачная (около 4-6 евро). "Почти даром" нашли гречку в магазине для русских по цене 1,20 евро за пачку 400г.
 
-![гречка крупа горох колотый цена супермаркет Черногория](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st3/IMG_20141007_201345.jpg)
+![гречка крупа горох колотый цена супермаркет Черногория](http://greendogstorage.s3.amazonaws.com/Montenegro/st3/IMG_20141007_201345.jpg)
 
 Куриное филе можно сказать "золотое" - 5 евро/кг.
 
 Рыба и морепродукты достаточно дорогие, что очень странно для страны с выходом к морю. Объяснение этому простое - рыбу тут не любят и почти не едят, предпочитая ей мясо. Остальным остаётся лишь обзаводиться удочками и рыбачить. Специального разрешения для ловли не нужно.
 
-![мост рыбаки удочки рыбалка Бар Черногория Montenegro река](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st3/Bridge.JPG)
+![мост рыбаки удочки рыбалка Бар Черногория Montenegro река](http://greendogstorage.s3.amazonaws.com/Montenegro/st3/Bridge.JPG)
 
 В магазине стоит корзина для пустой стеклянной тары. Денег за вторсырьё тут не дают, а значит цыганчатам приходится только клянчить у прохожих по 10 центов.
 
-![стеклянная тара бутылки корзина вторсырье магазин](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st3/BasketButtle.jpg)
+![стеклянная тара бутылки корзина вторсырье магазин](http://greendogstorage.s3.amazonaws.com/Montenegro/st3/BasketButtle.jpg)
 
 Под конец фото недавно обрушившегося шторма с жуткой грозой
 
-![](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st3/IMG_8450.JPG)
+![](http://greendogstorage.s3.amazonaws.com/Montenegro/st3/IMG_8450.JPG)
 
 последствия шторма
 
-![](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st3/IMG_8480.JPG)
+![](http://greendogstorage.s3.amazonaws.com/Montenegro/st3/IMG_8480.JPG)
 
-![](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/st3/IMG_8481.JPG)
+![](http://greendogstorage.s3.amazonaws.com/Montenegro/st3/IMG_8481.JPG)

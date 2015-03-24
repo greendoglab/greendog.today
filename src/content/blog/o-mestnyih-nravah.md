@@ -1,34 +1,34 @@
 title: О местных нравах
 date: 2014-09-23 10:03:32
 tags: [Черногория, Бар, Сербский Язык, Школа]
-poster: http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/IMG_8460.JPG
+poster: http://greendogstorage.s3.amazonaws.com/Montenegro/IMG_8460.JPG
 author: Ольга Якименко
 
-![аллея пальма горы Черногория Бар](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/IMG_8460.JPG)
+![аллея пальма горы Черногория Бар](http://greendogstorage.s3.amazonaws.com/Montenegro/IMG_8460.JPG)
 
 Вообще черногорцы довольно разговорчивые и легко идут на контакт, нередко первыми заговаривают. Благо черногорский язык очень похож на украинский, немного меньше на русский. В этом можно было убедиться уже из небольшого словаря, который я приводила в конце [первой заметки о Черногории](http://greendog.today/post/itak-myi-v-chernogorii/). Черногорский язык - это диалект сербского, совсем с небольшими от него отличиями.
 
-![адриатическое море пейзаж горы лето](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/IMAG1831.jpg)
+![адриатическое море пейзаж горы лето](http://greendogstorage.s3.amazonaws.com/Montenegro/IMAG1831.jpg)
 
 Полненьких я здесь практически не встречала. Однако если вы страдаете избыточным весом, то не удивляйтесь, если к вам в супермаркете подойдёт черногорец и совершенно искренне и без задней мысли даст совет: "Кушать надо меньше". Я не придумываю )) это реальная подсмотренная история. А теперь представьте, если бы такое произошло в Украине (хотя даже это маловероятно), чем бы всё закончилось? Наверняка не обменом улыбками.
 
-![детская площадка Черногория дети пальмы Бар](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/IMG_8483.JPG)
+![детская площадка Черногория дети пальмы Бар](http://greendogstorage.s3.amazonaws.com/Montenegro/IMG_8483.JPG)
 
 Абсолютно в порядке вещей, когда с тобой здоровается в подъезде совершенно незнакомый человек: "Добар дан!"(добрый день). Говорят даже, что если проходя мимо сада с фруктами, вы сорвёте, например, гранат, со свисающей через забор ветки, то вам никто даже слова плохого не скажет. Мы не проверяли такие слухи. Поверим им на слово.
 
-![сад гранат фрукты](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/IMG_8326.JPG)
-![сад красная ягода забор](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/IMAG1846.jpg)
+![сад гранат фрукты](http://greendogstorage.s3.amazonaws.com/Montenegro/IMG_8326.JPG)
+![сад красная ягода забор](http://greendogstorage.s3.amazonaws.com/Montenegro/IMAG1846.jpg)
 
 Так получилось, что живём мы возле школы. Дети учатся с 8 до 16-17 часов в две смены. В течение дня есть несколько больших перемен, по 15-20 минут примерно. В первую перемену на школьную площадку выходят дети самого старшего возраста, в следующую - дети чуть поменьше и так далее. Мне кажется это очень правильно, так как исключает всякую "дедовщину" среди детей.
 
-![школа Черногория перемена дети школьники Бар](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/IMG_8497.JPG)
+![школа Черногория перемена дети школьники Бар](http://greendogstorage.s3.amazonaws.com/Montenegro/IMG_8497.JPG)
 
 Часто встречаются такие пешеходные переходы
 
-![](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/IMAG1848.jpg)
+![](http://greendogstorage.s3.amazonaws.com/Montenegro/IMAG1848.jpg)
 
 Хотя для нас это дико. Но поскольку по газонам здесь не запрещается ходить, а возле пляжа отдыхающие могут запросто прилечь не на гальку, а на газончик под пальму, то удивляться вроде как и нечему.
 
-![рыжий кот кошка газон трава пальма](http://greendogstorage.s3.amazonaws.com/greendog.io/Montenegro/cat.jpg)
+![рыжий кот кошка газон трава пальма](http://greendogstorage.s3.amazonaws.com/Montenegro/cat.jpg)
 
 Продолжение следует.
